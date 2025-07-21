@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 40px 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.form-text-error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 4px;
+}
+
+.btn-custom {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.message {
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.message.success {
+    color: green;
+}
+
+.message.fail {
+    color: red;
+}

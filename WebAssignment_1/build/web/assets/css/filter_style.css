@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 6, 2025, 5:27:09 PM
+    Author     : an0other
+*/
+
+.mini-filter-bar {
+    max-width: 500px;
+    margin: 10px auto 20px;
+    padding: 0 10px;
+}
+
+.mini-filter-form {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.mini-select {
+    padding: 6px 8px 6px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    background-color: white;
+    font-size: 12px;
+    color: #444;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 10px;
+    transition: all 0.2s;
+    flex: 1;
+    min-width: 80px;
+}
+
+.mini-select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.1);
+}
+
+.mini-filter-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #007bff;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.mini-filter-btn:hover {
+    background: #0069d9;
+}
+
+@media (max-width: 576px) {
+    .mini-filter-form {
+        flex-wrap: wrap;
+    }
+    .mini-select {
+        min-width: calc(33% - 8px);
+    }
+}

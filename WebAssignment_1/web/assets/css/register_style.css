@@ -1,0 +1,63 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 10, 2025, 8:05:29 PM
+    Author     : an0other
+*/
+body {
+    background-color: #f8f9fa;
+}
+
+.register-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.register-card {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px 30px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+}
+
+.submit-btn {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0d6efd !important;
+}
+
+.form-note {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-note a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.form-note a:hover {
+    text-decoration: underline;
+}
