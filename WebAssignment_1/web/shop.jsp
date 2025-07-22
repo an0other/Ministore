@@ -147,7 +147,7 @@
                                 </div> 
                                 <% } else { %>
                                 <div class="cart-button d-flex">
-                                    <a href="MainController?action=addItem&keyword=<%=keyword%>&category=<%=request.getParameter("category")%>&cost_range=<%=request.getParameter("cost_range")%>&sort=<%=request.getParameter("sort")%>&idproduct=<%=i.getId()%>" class="btn btn-medium btn-black">
+                                    <a href="MainController?action=addItem&keyword=<%=keyword%>&category=<%=request.getParameter("category")%>&cost_range=<%=request.getParameter("cost_range")%>&sort=<%=request.getParameter("sort")%>&idproduct=<%=i.getId()%>&page=<%=page_str%>" class="btn btn-medium btn-black">
                                         Add to Cart<svg class="cart-outline">
                                             <use xlink:href="#cart-outline"></use>
                                         </svg>

@@ -48,7 +48,7 @@ public class EmailUtils {
         String link = "/WebAssignment_1/MainController?action=verifyEmail&code=" + verifyCode;
         String content = "<p>Xin chào,</p>"
                 + "<p>Nhấn vào liên kết dưới đây để xác nhận đăng ký tài khoản</p>" + username + "<br>"
-                + "<a href=\"http://localhost:8080//WebAssignment_1/MainController?action=verifyEmail&code=" + verifyCode + "\">Xác nhận tài khoản</a>"
+                + "<a href=\"http://localhost:8080/WebAssignment_1/MainController?action=verifyEmail&code=" + verifyCode + "\">Xác nhận tài khoản</a>"
                 + "<p>Trân trọng!</p>";
 
         message.setContent(content, "text/html; charset=UTF-8");
